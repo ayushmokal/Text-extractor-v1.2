@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Extractor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Text Extractor</h1>
+    </header>
+
+    <!-- Moved Settings Section Here, Right Below the Header -->
+  <!-- Adjusted Settings Section for Horizontal Layout -->
+<section class="settings" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 10px;">
+    <div class="option" style="display: flex; align-items: center;">
+        <label for="languageSelect" style="margin-right: 5px;">Language:</label>
+        <select id="languageSelect" class="select">
+            <option value="hi-IN">Hindi</option>
+            <option value="en-US" selected>English (United States)</option>
+            <option value="mr-IN">Marathi</option>
+        </select>
+    </div>
+
+    <div class="option" style="display: flex; align-items: center;">
+        <label for="fontSizeSlider" style="margin-right: 5px;">Font Size:</label>
+        <input type="range" id="fontSizeSlider" min="10" max="32" value="16" class="slider">
+        <span id="fontSizeValue" style="margin-left: 5px;">16px</span>
+    </div>
+
+    <div class="option" style="display: flex; align-items: center;">
+        <label for="fileNameInput" style="margin-right: 5px;">File Name:</label>
+        <input type="text" id="fileNameInput" placeholder="Enter file name" class="text-input">
+    </div>
+
+    <div class="option" style="display: flex; align-items: center;">
+        <label for="textColorPicker" style="margin-right: 5px;">Text Colour:</label>
+        <input type="color" id="textColorPicker" value="#000000" class="color-picker">
+    </div>
+
+    <div class="option" style="display: flex; align-items: center;">
+        <label for="fontStyleSelect" style="margin-right: 5px;">Font Style:</label>
+        <select id="fontStyleSelect" class="select">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+    </div>
+</section>
+
+
+    <main>
+        <div class="container">
+            <!-- File Upload Section -->
+            <section class="file-upload" id="drop-area">
+                <img src="/assets/tool-upload-img.png" alt="Upload" class="upload-icon">
+                <p>Drag and drop an image here or click to select a file</p>
+                <input type="file" name="file" accept="image/*" capture="camera" id="imageInput" class="file-input" hidden>
+                <button class="button" onclick="document.getElementById('imageInput').click();"><i class="fas fa-upload"></i> Upload Image</button>
+                <input type="file" name="audio" accept="audio/*" id="audioInput" class="file-input" hidden>
+                <button class="button" onclick="document.getElementById('audioInput').click();"><i class="fas fa-microphone"></i> Upload Audio</button>
+            </section>
+        </div>
+
+        <section id="textOutput" class="text-output">
+            <!-- Text output will be shown here -->
+        </section>
+
+        <button id="copyTextBtn">Copy Text</button>
+
+        <div class="dropdown">
+            <button class="dropbtn">Download As</button>
+            <div class="dropdown-content">
+                <a href="#" id="downloadTxt">Text (.txt)</a>
+                <a href="#" id="downloadPdf">PDF (.pdf)</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+</body>
+</html>

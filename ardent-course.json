@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ardent-course-391113",
+  "private_key_id": "3edd67a5d4ccaa4809b4baf082d3f1123f8c3919",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBUpb860F2Spib\nGF7YAK5bZR8+SfRXunuwrj8PRBe5kaE5qWDfSYZBQcWSWlo3y8TQz+aHxB8nyBSX\nkR8Apb5h9Isxy46ZFP7pOq1q/f/dr+kq1IcCel4/yspSRz1iRTLVqYxhNCffpjl8\nhNedy7b3gAmnCHUXFTa6cdVR+weuZVIpJkMSrljL8N/nRjarosPIt7hfAN31GSJ8\n+ZA3z47ZrAcs0zk7fkz+By8sZ5fEuoXltM3DBerLKxjj775gh7OrfEss+LzKIo3I\n8m2nKvtcI6/mYJUEfMgaQ2+vsW4NP4aVoqqCNjD8owL/7BIkLN6ZmQeGT/Z2IAPQ\n1+i4nlQjAgMBAAECggEANs4GFc9PsIw3NQi0ooGW7Dv/nnXyuggY1p6fK+G+5BGf\n5ivZVZOPZuKRcwsANn8i3ZuCnAyCVJHJHKq8Yj+aeESOTWCKnWUxWscSsJkvNxaO\ngGDdoVs1ato/fxHJGhnJ7n5xWIEjqKiD9YPnaEl/Jiz7D4o7P375E+P/eI00wUBj\nXn3EMpYxsCrW8zhbLj0xkJm49MjE3bTWqANmexJr9SRXvXMAZgmDvcr+58JNBAuY\nBlNuEK7CPnewEg/Qo5YNCkxdX5XrX3hEHInT6YppI8i+XtDZg8PuDNKSm0TK1G6x\nyDyENE9iEH5lCr+vf5jsVa2dYJhyEV6lnkyQ3hDgaQKBgQDz4Nb1KxamC1NzviIC\ntE9TuL2alxnWVbN4DLZxNoTpf/k7tWHF5XjxIR+W5EC5fvrMqfp/0IeUel2Flale\nvKUc+aA0apQ87xx9mIZzp2HUpDHqOVK2NvQicH1VMXVoMl7nJJj4mm1iBj2xV7uw\nB3x2J1M0uG4gxCtSp7x4NjgadwKBgQDK7ngGidIzOQk91bug755Jt+JI5vNIvFLF\nD8RgBYlvtvpkX/6v9owl5m34x5A5vxeXXZqijHnqRXpGIg9Gh4EwqA6pj7yodPe2\nF0oro8ru4iMnap9iwX+jYRhGiHBv03+aGKQ4Z5OWu2pTv9nuL3pTjJPaaEc9MRW0\n6MG43jLStQKBgALwlObDrDQ4MrtUcWiC7+nccjyo0aDpy44I6TIYLCX8au6zUwhl\nqb2OXqkc+0LBKxjIe8KKqve5OeNgWHhR4dOllq7LEhph73/8FLLUM7Oyfv+JzVtw\n8iRwIrKiM/4bjVVP9aAZjHQAC0JWAmcuz+tEshYSmxE+DB+k8fqo/KglAoGAOjzl\nxTqYUIr11AEar70UuCNFlZZyC1XAiz1TJhtwrdbdVSEXfnhLEDVpKhRbl7b3lkEO\nt8eI1WrLBIWRzLPmp4gTbSYLBm1LCb71UkDXZGcRn6ZBx52we7rJtLRDUFRqMlcQ\nCf/vozp18UMF0A1gFcoqRGvYxf7oM9r4fY2HGGECgYEA2FBgDRpOxewVWP9OYMoM\nVqTKS1b4c8sLfi7b0EVg4Atzdr7Z7PoFDV7RJx1cDkbbvPGwgksQhmfcXERQN1TS\ngaElL5/QomrvSt5uPtNxJVsdky58s8r3pMncO5RKDF6etVNci9BlJNGajJnDR9px\nb1sNoxMpXQXOWTXaR9XdYAI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ayushnew@ardent-course-391113.iam.gserviceaccount.com",
+  "client_id": "114164326617209347309",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ayushnew%40ardent-course-391113.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
